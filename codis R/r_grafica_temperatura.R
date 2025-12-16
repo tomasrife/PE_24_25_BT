@@ -45,6 +45,7 @@ plot(x = dosrius$time,
      xlab = "Data i Hora",
      ylab = "Temperatura (ºC)")
 
-# Afegim línia de mitjana
+
 abline(h = mean(dosrius$temp, na.rm=TRUE), col="gray", lty=2)
 grid()
+
